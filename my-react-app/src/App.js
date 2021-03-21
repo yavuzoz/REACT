@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React,merhaba,olacakmi dersin bu yazilim ?, insaallah , ama ingilizce , almanca ile beraber ögrenmen gerekiyor dostum..
         </a>
       </header>
     </div>
