@@ -1,44 +1,42 @@
-// this function is showing/writing Friends of People in list 
+import { Card } from 'react-bootstrap'
 
-function Friends(props){
-    return <div key={props.firstName}>
-      <h4>FRIENDS</h4> 
-      {props.friends.map(friend=> {
-      return <div className="card bg-secondary text-white"> 
-          <span><img className="avatar" src={friend.avatar} alt="resim"/></span>
-            <div className="card-body">
-              <h5 className="card-title">   {friend.firstName}  {friend.lastName}</h5>
-              <table>
-                <thead>
-                  <tr>
-                <th>ADRES</th>
-                <th>SALARY</th>
-                <th>GENDER</th>
-                <th>BIRTHDAY</th>
-                <th>CITY</th>
-                <th>LANGUAGE</th>
-                <th>PHONE</th>
-                <th>PROFESSION</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>{friend.address}</td>
-                <td>{friend.salary}</td>
-                <td>{friend.gender}</td>
-                <td>{friend.birthday}</td>
-                <td>{friend.city}</td>
-                <td>{friend.language}</td>
-                <td>{friend.phone}</td>
-                <td>{friend.profession}</td>
-            </tr>
-            </tbody>
-            </table>
-            </div>
-        </div> 
-      }
-    )}
-    </div> 
+export default function Friend(props) {
+  return (
+    <Card>
+      <Card.Img variant='top' src={props.friend.avatar} />
+      <Card.Body>
+        <Card.Title>
+          {props.friend.firstName}
+          {props.friend.lastName}
+        </Card.Title>
+        <Card.Text>
+          Gender:
+          {props.friend.gender}
+        </Card.Text>
+        <Card.Text>
+          Language:
+          {props.friend.language}
+        </Card.Text>
+        <Card.Text>
+          Profession:
+          {props.friend.profession}
+        </Card.Text>
+        <Card.Text>
+          Salary:
+          {props.friend.salary}
+        </Card.Text>
+        <Card.Text>
+          City:
+          {props.friend.city}
+        </Card.Text>
+      </Card.Body>
+      <Card.Footer>
+        <small className='text-muted'>Birthday:{props.friend.birthday}</small>
+        <br />
+        <small className='text-muted'>Phone:{props.friend.phone}</small>
+        <br />
+        <small className='text-muted'>Address:{props.friend.address}</small>
+      </Card.Footer>
+    </Card>
+  )
 }
-
-export default Friends;

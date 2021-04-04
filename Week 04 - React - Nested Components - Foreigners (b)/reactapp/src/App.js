@@ -1,17 +1,21 @@
-import './App.css';
-import Data from './components/foreigners.json';
-import Personal from './components/personel'
+/**
+   * Bir Json dosyasindaki veriler UI da istenilen sekilde gosterilmelidir
+   * Bu uygulama icin react-bootstrap deki tablo ve card komponentleri kullanilacak
+   * props yardimi ile mevcut datadaki veriler Profil>PersonalDetails>Person=ChildListView 
+   * =FriendsListView> Child=Friend seklinde ilgili komponentlere aktarilarak UI da gosterilecek
+   * Ic ice verilerde map() kullanilarak veriler UI render edilecek
+  */
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Profil from './Profil'
+import Foreigners from './services/foreigners.json'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <div className="card container">
-              {Personal(Data)}
-            </div>
-      </header>
+    <div>
+      <Profil list={Foreigners} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
