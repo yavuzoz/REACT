@@ -23,4 +23,3 @@ export default function Child(props) {
     </Card>
   )
 }
-© 2021 GitHub, Inc.
