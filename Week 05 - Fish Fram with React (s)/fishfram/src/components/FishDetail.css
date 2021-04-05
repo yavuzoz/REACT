@@ -1,0 +1,24 @@
+.fish-info{
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(171, 235, 210);
+    border-radius: 30%;
+    width: 10vw;
+    height: 10vw;
+    opacity: .7;
+    font-size: larger;
+    
+}
+
+#name{
+background-color: cadetblue;
+opacity: 1;
+font-weight: bolder;
+}
