@@ -1,0 +1,9 @@
+.question {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(202, 189, 171);
+    padding: 3vh;
+    border: rgb(97, 86, 78);
+    width: 5vw;
+    box-shadow: rgb(31, 26, 26) 1px 1px 1px;
+}

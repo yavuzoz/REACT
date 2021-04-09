@@ -1,0 +1,75 @@
+[
+    {
+      "question": "essen",
+      "correctAnswer": "yemek",
+      "answer" :["icmek","denemek", "susmak"]
+
+    },
+    {
+        "question": "trinken",
+        "correctAnswer": "icmek",
+        "answer" :["yemek","yapmak", "gelmek"]
+
+  
+      },
+      {
+        "question": "laufen",
+        "correctAnswer": "kosmak",
+        "answer" :["hoplamak","atlamak", "ziplamak"]
+  
+      },
+      {
+        "question": "gehen",
+        "correctAnswer": "gitmek",
+        "answer" :["gelmek","alisveris yapmak", "susmak"]
+  
+      },
+      {
+        "question": "kommen",
+        "correctAnswer": "gelmek",
+        "answer" :["gitmek","duymak", "koklamak"]
+  
+      },
+      {
+        "question": "kochen",
+        "correctAnswer": "pisirmek",
+        "answer" :["yazmak","duymak", "kizartmak"]
+  
+      },
+      {
+        "question": "lachen",
+        "correctAnswer": "gülmek",
+        "answer" :["aglamak","yemek", "bagirmak"]
+  
+      },
+      {
+        "question": "weinen",
+        "correctAnswer": "aglamak",
+        "answer" :["gülmek","sarap icmek", "icmek"]
+  
+      },
+      {
+        "question": "verhindern",
+        "correctAnswer": "önlemek",
+        "answer" :["sebep olmak","yatmak", "oturmak"]
+  
+      },
+      {
+        "question": "schlagen",
+        "correctAnswer": "dövmek",
+        "answer" :["calismak","basarmak", "bagirmak"]
+  
+      },
+      {
+        "question": "vorschlagen",
+        "correctAnswer": "önermek",
+        "answer" :["vurmak","bakmak", "hayal etmek"]
+  
+      },
+      {
+        "question": "schreiben",
+        "correctAnswer": "yazmak",
+        "answer" :["mektup","kitap", "defter"]
+  
+      }
+  ]

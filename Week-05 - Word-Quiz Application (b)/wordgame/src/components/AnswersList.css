@@ -1,0 +1,7 @@
+div[name=answer] {
+    background-color: burlywood;
+    margin: 1vh;
+    padding: 2vh;
+    width: 7vw;
+    box-shadow: rgb(202, 147, 147) 1px 1px 1px;
+}
